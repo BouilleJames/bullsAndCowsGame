@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+html, body{
+    height: 100%;
+    font-size: 14px;
+    background-color: rgba(2, 23, 129, 0.789);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 7em;
+    height: 3em;
+    font-size: 1.3em;
+    color: rgb(237, 204, 162);
+    background-color: rgb(71, 71, 181);
+}
+
+h1, h2, p{
+    font-size: 4rem;
+    margin: 3.5rem;
+    color: rgb(227, 181, 121);
+}
+
+p{
+    font-size: 2rem;
+}
+
+#logsArea{
+    text-align: left;
+    font-size: 1.3rem;
+    background-color: beige;
+    resize: none;
+}
